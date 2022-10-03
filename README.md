@@ -46,7 +46,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Background photo by [Ruvim](https://www.pexels.com/photo/white-clouds-3560044/)
+- Background photo by [Ruvim](https://www.pexels.com/photo/white-clouds-3560044/).
 
 ## 📝 License
 

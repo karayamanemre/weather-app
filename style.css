@@ -18,13 +18,15 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--primary-color);
+  height: auto;
 }
 
 main {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 600px;
+  padding: 10px;
 }
 
 .container {
@@ -36,7 +38,7 @@ main {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 25px;
   width: 600px;
-  height: 80vh;;
+  height: 80vh;
 }
 
 h1 {
@@ -86,4 +88,18 @@ p {
 
 .desc {
   text-transform: capitalize;
+}
+
+@media screen and (max-width: 700px) {
+  .city,
+  .feels-like-temp,
+  .humidity,
+  .min-max,
+  .desc {
+    font-size: 20px;
+  }
+
+  .temp {
+    font-size: 30px;
+  }
 }
