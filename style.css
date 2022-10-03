@@ -14,31 +14,34 @@ html {
 body {
   font-family: 'Courier Prime', sans-serif;
   background-image: url(bg1.jpeg);
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: fit;
   color: var(--primary-color);
-  height: auto;
 }
 
 main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
-  padding: 10px;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 25px;
   width: 600px;
   height: 80vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
@@ -48,7 +51,7 @@ h1 {
 
 input {
   font-family: 'Courier Prime', sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   color: var(--secondary-color);
   padding: 10px;
   background: transparent;
@@ -67,7 +70,6 @@ input {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 p {
@@ -91,15 +93,19 @@ p {
 }
 
 @media screen and (max-width: 700px) {
+  h1 {
+    font-size: 40px;
+  }
+
   .city,
   .feels-like-temp,
   .humidity,
   .min-max,
   .desc {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .temp {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
