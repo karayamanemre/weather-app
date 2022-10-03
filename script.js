@@ -1,5 +1,5 @@
 const url = 'https://api.openweathermap.org/data/2.5/';
-const apiKey = config.MY_KEY;
+const apiKey = 'a888dec172e02a26c2a52a73ee2c577f';
 const searchBar = document.getElementById('citySearchBar');
 
 const setQuery = (e) => {
