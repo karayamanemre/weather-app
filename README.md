@@ -46,7 +46,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Background photo by [Ruvim](https://www.pexels.com/photo/white-clouds-3560044/).
+- Background photos by [Ruvim](https://www.pexels.com/photo/white-clouds-3560044/), [eberhard grossgasteiger](https://www.pexels.com/photo/photo-of-columbus-clouds-1019991/), [Marco Bianchetti](https://unsplash.com/s/photos/scattered-clouds?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText), [Francesco Ungaro](https://www.pexels.com/photo/blue-sky-281260/), [Simon Berger](https://www.pexels.com/photo/snow-covered-bench-on-a-snowy-day-678036/)
+  
+
 
 ## 📝 License
 

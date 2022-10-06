@@ -35,6 +35,37 @@ const displayResult = (result) => {
 
     let minMax = document.querySelector('.min-max');
     minMax.innerText = `Min: ${Math.round(result.main.temp_min)}°C Max: ${Math.round(result.main.temp_max)}°C`;
+
+    switch (desc.innerText) {
+        case 'Light Rain':
+            document.body.style.backgroundImage = 'url("bg-rain.jpeg")';
+            break;
+        case 'Moderate Rain':
+            document.body.style.backgroundImage = 'url("bg-rain.jpeg")';
+            break;
+        case 'Broken Clouds':
+            document.body.style.backgroundImage = 'url("bg-clouds.jpeg")';
+            break;
+        case 'Scattered Clouds':
+            document.body.style.backgroundImage = 'url("bg-open-cloud.jpeg")';
+            break;
+        case 'Overcast Clouds':
+            document.body.style.backgroundImage = 'url("bg-open-cloud.jpeg")';
+            break;
+        case 'Few Clouds':
+            document.body.style.backgroundImage = 'url("bg1.jpeg")';
+            break;
+        case 'Clear Sky':
+            document.body.style.backgroundImage = 'url("bg-clear-sky.jpeg")';
+            break;
+        case 'Light Shower Snow':
+            document.body.style.backgroundImage = 'url("bg-snow.jpeg")';
+            break;    
+        case 'Snow':
+            document.body.style.backgroundImage = 'url("bg-snow.jpeg")';
+            break;  
+    }
 }
 
 searchBar.addEventListener('keypress', setQuery);
+
