@@ -38,32 +38,34 @@ const displayResult = (result) => {
 
     switch (desc.innerText) {
         case 'Light Rain':
-            document.body.style.backgroundImage = 'url("bg-rain.jpeg")';
+            document.body.style.backgroundImage = 'url("img/bg-rain.jpeg")';
             break;
         case 'Moderate Rain':
-            document.body.style.backgroundImage = 'url("bg-rain.jpeg")';
+            document.body.style.backgroundImage = 'url("img/bg-rain.jpeg")';
             break;
         case 'Broken Clouds':
-            document.body.style.backgroundImage = 'url("bg-clouds.jpeg")';
+            document.body.style.backgroundImage = 'url("img/bg-clouds.jpeg")';
             break;
         case 'Scattered Clouds':
-            document.body.style.backgroundImage = 'url("bg-open-cloud.jpeg")';
+            document.body.style.backgroundImage = 'url("img/bg-open-cloud.jpeg")';
             break;
         case 'Overcast Clouds':
-            document.body.style.backgroundImage = 'url("bg-open-cloud.jpeg")';
+            document.body.style.backgroundImage = 'url("img/bg-open-cloud.jpeg")';
             break;
         case 'Few Clouds':
-            document.body.style.backgroundImage = 'url("bg1.jpeg")';
+            document.body.style.backgroundImage = 'url("img/bg1.jpeg")';
             break;
         case 'Clear Sky':
-            document.body.style.backgroundImage = 'url("bg-clear-sky.jpeg")';
+            document.body.style.backgroundImage = 'url("img/bg-clear-sky.jpeg")';
             break;
         case 'Light Shower Snow':
-            document.body.style.backgroundImage = 'url("bg-snow.jpeg")';
+            document.body.style.backgroundImage = 'url("img/bg-snow.jpeg")';
             break;    
         case 'Snow':
-            document.body.style.backgroundImage = 'url("bg-snow.jpeg")';
-            break;  
+            document.body.style.backgroundImage = 'url("img/bg-snow.jpeg")';
+            break;
+        default:
+            document.body.style.backgroundImage = 'url("img/bg1.jpeg")';
     }
 }
 

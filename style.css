@@ -13,7 +13,7 @@ html {
 
 body {
   font-family: 'Courier Prime', sans-serif;
-  background-image: url(bg1.jpeg);
+  background-image: url(img/bg1.jpeg);
   background-repeat: no-repeat;
   background-size: fit;
   color: var(--primary-color);
