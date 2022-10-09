@@ -32,6 +32,7 @@ main {
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   background-color: rgba(255, 255, 255, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.125);
   border-radius: 25px;
   width: 600px;
   height: 80vh;
